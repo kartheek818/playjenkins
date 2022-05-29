@@ -1,6 +1,6 @@
 pipeline {
 
-  agent 'label: JENKINS_SLAVE'
+  agent { label 'JENKINS_SLAVE' }
 
   stages {
 
